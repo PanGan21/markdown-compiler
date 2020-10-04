@@ -2,12 +2,14 @@
 
 ## Run
 
-Create a file <filename.md> in the root directory of the project and run</br>
-`cargo run -q <filename>`
+Install JavaScript dependencies with `yarn install` </br>
+Build the WASM files with `yarn build-debug` </br>
+Run the project with `yarn serve` </br>
+Go to `http://localhost:8080` and play with the markdown compiler
+
 </br>
-Check the <filename.html> which is created in the same directory
 
 ## Todos
 
-- Only supports `<p>` and `<h1>` tags. Make it compatible with the rest.
-- DRY principles with Rust features.
+The project supports only all the header and list tags. </br>
+Support paragraphs, ordered lists and the rest of md elements.

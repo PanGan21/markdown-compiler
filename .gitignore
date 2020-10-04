@@ -1,1 +1,6 @@
 /target
+<<<<<<< HEAD
+=======
+Cargo.lock
+/node_modules
+>>>>>>> develop
